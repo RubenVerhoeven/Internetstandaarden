@@ -1,0 +1,51 @@
+body {
+  background: white;
+}
+
+header {
+  background-color: beige;
+  color: black;
+  h1{
+    text-align: center;
+    padding: 1.5em;
+    font-family: merriwheater;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+    }
+
+nav{
+    text-align: center;
+    }
+}
+
+main {
+  background-color: white;
+  padding-bottom: 18em;
+  text-align: center;
+}
+
+
+footer {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+footer p {
+  margin-right: 2em;
+}
+
+button{
+  color: black;
+  background-color: white;
+}
+button:hover {
+  background-color: lightgray;
+  transition: ease-in-out;
+  transition-duration: 400ms;
+}
